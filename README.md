@@ -68,3 +68,15 @@ src/smarthome.cpp  MQTT client with Home Assistant LWT, publish/subscribe
 src/ota.cpp  OTA web UI + binary upload endpoint
 home_assistant_config.yaml  Full MQTT sensors + automation templates
 build_guide.md  Complete runway: BOM, wiring, power, OAuth steps, troubleshooting
+
+
+
+Quick Start
+Edit include/config.h — fill in your WiFi credentials, Spotify Client ID/Secret, and MQTT broker IP
+Flash with pio run --target upload
+Open browser → http://bedside-controller.local/ → click Authorize Spotify
+Use gestures! — Swipe/wave to control music, rotate CCW to switch to Smart Home mode
+🎛️ The Dual-Mode System
+Clockwise rotation → Spotify mode (green LED breathe)
+Counter-clockwise rotation → Smart Home mode (purple LED breathe)
+Same physical gestures control totally different things depending on mode
