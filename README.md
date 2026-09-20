@@ -7,7 +7,9 @@ This is a great redesign — much more intuitive. Let me map it all out clearly 
 New scheme:
 
 Swipe UP/DOWN → cycle modes (each has its own color)
+
 Modes: Spotify → Curtains → Smart Light → LED Brightness → (loops)
+
 Within modes: Left/Right for discrete actions, Rotate for percentage (shown on ring), Wave for play/pause
 
 Swipe UP   ↑  →  Next mode  (Spotify → Curtains → Smart Light → LED Brightness → Spotify...)
